@@ -1,7 +1,6 @@
 package datetime
 
 import (
-	"fmt"
 	. "github.com/jingyanbin/base"
 	. "github.com/jingyanbin/timezone"
 )
@@ -60,7 +59,6 @@ func (my *DateTime) DaySecond() int {
 }
 
 func (my *DateTime) SetZone(zone TimeZone) {
-	fmt.Println(zone)
 	if my.zone.Offset() != zone.Offset(){
 		my.zone = zone
 		if my.unix == 0 {

@@ -1,8 +1,10 @@
 package datetime
 
 import (
-	. "github.com/jingyanbin/base"
-	. "github.com/jingyanbin/timezone"
+	. "gameworld/base/convert"
+	. "gameworld/base/errors"
+	. "gameworld/base/exception"
+	. "gameworld/base/timezone"
 	"strconv"
 	_ "unsafe"
 )
