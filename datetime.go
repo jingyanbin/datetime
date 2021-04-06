@@ -1,7 +1,7 @@
 package datetime
 
 import (
-	. "github.com/jingyanbin/base"
+	. "github.com/jingyanbin/basal"
 	. "github.com/jingyanbin/timezone"
 )
 
